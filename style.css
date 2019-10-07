@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css?family=Buenard&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Buenard|Work+Sans&display=swap);
+
+
+/* 
+*{
+  border: 1px black solid ;
+}  */
+
+*{
+
+    font-family: 'Buenard', serif;
+    background-color: rgb(238, 238, 238);
+    color:black;
+    cursor: default;
+
+
+    
+}
+
+p{
+    background: 0%;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 2;
+    
+}
+
+
+hr{
+    margin-left:30pt; 
+
+
+    width: 50%;
+}
+
+.content{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: -60pt;
+
+}
+.squareL{
+    position: absolute;
+
+    margin-left: -250pt;
+    width: 55pt;
+    height: 550pt;
+    background-color:rgba(238, 238, 238);
+
+
+
+}
+.squareR{
+    position: absolute;
+
+    margin-left: 205pt;
+    width: 140pt;
+    height: 550pt;
+    background-color:rgba(238, 238, 238);
+  
+}
+
+.title{
+    position: absolute;
+    font-size: 160pt;
+    margin-left: 60pt;
+    background: 0%;
+
+}
+.title:hover{
+
+    -webkit-text-stroke: 2px black;
+    color: rgba(245, 245, 245, 0.064);
+    font-size: 170pt;
+}
+
+.subTitle{
+    position: absolute;
+    background: 0%; 
+
+    height: 90%;
+    justify-content: center;
+    
+    font-size: 19pt;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+
+
+    text-align: start;
+    margin-top: 80pt;
+    margin-right: 60pt;
+
+}
+
+
+.line{
+
+    margin-top: 370pt;
+    width: 70%;
+
+
+
+}
+
+.text{
+    font-size: 25px;
+    font-family: 'Buenard', serif;
+}
+
+.nav1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: absolute;
+    height: 100%;
+    margin-right: 170pt;
+
+
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    z-index:3;
+}
+
+.num{
+    color: black;
+    margin-top: 150pt;
+    font-size: 25px;
+
+
+
+}
+.black{
+
+    color: rgb(14, 14, 14);
+    margin-bottom: 60pt;
+    font-size: 14px;
+
+    align-self: center;
+    cursor: default;
+
+
+
+}
+
+.nav2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    height: 100%;
+    padding-top: 40pt;
+    margin-left: 50pt;
+
+    z-index:3;
+}
+
+.gray{
+    font-size: 14px;
+    color: rgb(126, 126, 126);
+    margin-bottom: 110pt;
+    font-size: 14px;
+    cursor: pointer;
+
+
+}
+
+.nav3{
+    position: absolute;
+    margin-left: 1160pt;
+    height: 100%;
+    padding-top: 40pt;
+    z-index:3;
+}
+
